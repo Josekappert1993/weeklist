@@ -1,10 +1,10 @@
 package com.example.week_list;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Monday extends AppCompatActivity {
 
@@ -13,6 +13,7 @@ public class Monday extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monday);
         configureBackButton();
+        
     }
 
     private void configureBackButton(){
