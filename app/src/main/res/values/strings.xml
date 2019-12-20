@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Week_list</string>
+    <string name="app_name">Heb ik alles?</string>
+    <string name="back_btn">Terug</string>
+    <string name="add_btn">Toevoegen</string>
+    <string name="monday_btn">Maandag</string>
+    <string name="tuesday_btn">Dinsdag</string>
+    <string name="wednesday_btn">Woensdag</string>
+    <string name="thursday_btn">Donderdag</string>
+    <string name="friday_btn">Vrijdag</string>
+    <string name="saturday_btn">Zaterdag</string>
+    <string name="sunday_btn">Zondag</string>
 </resources>

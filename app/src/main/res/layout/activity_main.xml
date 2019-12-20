@@ -8,15 +8,17 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginEnd="1dp"
         android:layout_marginRight="1dp"
+        android:background="#373737"
         android:gravity="center"
         android:isScrollContainer="true"
         android:keepScreenOn="true"
         android:orientation="vertical"
         android:visibility="visible"
+        android:weightSum="7"
         app:barrierAllowsGoneWidgets="true"
         app:chainUseRtl="true"
         app:layout_constrainedHeight="true"
@@ -29,17 +31,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:visibility="visible"
-        android:weightSum="7">
+        tools:visibility="visible">
 
         <Button
             android:id="@+id/monday_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#42CDCA"
-            android:text="Monday"
-            android:textColor="#FFFFFF"
+            android:background="#660066"
+            android:text="@string/monday_btn"
+            android:textColor="@color/textColor"
             android:visibility="visible"
             tools:visibility="visible" />
 
@@ -48,9 +49,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#4D98CF"
-            android:text="Tuesday"
-            android:textColor="#FFFFFF"
+            android:background="#8C264D"
+            android:text="@string/tuesday_btn"
+            android:textColor="@color/textColor"
             android:visibility="visible"
             tools:visibility="visible" />
 
@@ -59,9 +60,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#4974A7"
-            android:text="Wednesday"
-            android:textColor="#FFFFFF"
+            android:background="#B34D34"
+            android:text="@string/wednesday_btn"
+            android:textColor="@color/textColor"
             android:visibility="visible"
             tools:visibility="visible" />
 
@@ -70,9 +71,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#5A5386"
-            android:text="Thursday"
-            android:textColor="#FFFFFF"
+            android:background="#D87319"
+            android:text="@string/thursday_btn"
+            android:textColor="@color/textColor"
             android:visibility="visible"
             tools:visibility="visible" />
 
@@ -81,9 +82,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#57426B"
-            android:text="Friday"
-            android:textColor="#FFFFFF"
+            android:background="#FE9900"
+            android:text="@string/friday_btn"
+            android:textColor="@color/textColor"
             android:visibility="visible"
             tools:visibility="visible" />
 
@@ -92,9 +93,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#660066"
-            android:text="Saturday"
-            android:textColor="#FFFFFF"
+            android:background="#FFB800"
+            android:text="@string/saturday_btn"
+            android:textColor="@color/textColor"
             android:visibility="visible"
             tools:visibility="visible" />
 
@@ -103,9 +104,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#8C264D"
-            android:text="Sunday"
-            android:textColor="#FFFFFF"
+            android:background="#FFD600"
+            android:text="@string/sunday_btn"
+            android:textColor="@color/textColor"
             android:visibility="visible"
             tools:visibility="visible" />
     </LinearLayout>

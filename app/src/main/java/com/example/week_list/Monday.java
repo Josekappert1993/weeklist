@@ -13,7 +13,7 @@ public class Monday extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monday);
         configureBackButton();
-        
+
     }
 
     private void configureBackButton(){
