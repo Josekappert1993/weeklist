@@ -54,6 +54,12 @@
 
         </LinearLayout>
 
+        <ListView
+            android:id="@+id/tuesday_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/tuesday_items"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

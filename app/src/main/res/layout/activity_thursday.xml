@@ -53,5 +53,11 @@
                 android:textColor="@color/textColor" />
         </LinearLayout>
 
+        <ListView
+            android:id="@+id/thursday_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/thursday_items"/>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

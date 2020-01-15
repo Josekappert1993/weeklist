@@ -9,4 +9,50 @@
     <string name="friday_btn">Vrijdag</string>
     <string name="saturday_btn">Zaterdag</string>
     <string name="sunday_btn">Zondag</string>
+
+    <array name="monday_items">
+        <item>Laptop</item>
+        <item>Thee</item>
+        <item>Telefoon</item>
+        <item>Koptelefoon</item>
+        <item>Muis</item>
+    </array>
+    <array name="tuesday_items">
+        <item>Laptop</item>
+        <item>Thee</item>
+        <item>Telefoon</item>
+        <item>Koptelefoon</item>
+        <item>Muis</item>
+    </array>
+    <array name="wednesday_items">
+        <item>Laptop</item>
+        <item>Thee</item>
+        <item>Telefoon</item>
+        <item>Koptelefoon</item>
+        <item>Muis</item>
+    </array>
+    <array name="thursday_items">
+        <item>Laptop</item>
+        <item>Thee</item>
+        <item>Telefoon</item>
+        <item>Koptelefoon</item>
+        <item>Muis</item>
+    </array>
+    <array name="friday_items">
+        <item>Laptop</item>
+        <item>Thee</item>
+        <item>Telefoon</item>
+        <item>Koptelefoon</item>
+        <item>Muis</item>
+    </array>
+    <array name="saturday_items">
+        <item>Thee</item>
+        <item>Telefoon</item>
+        <item>Koptelefoon</item>
+    </array>
+    <array name="sunday_items">
+        <item>Thee</item>
+        <item>Telefoon</item>
+        <item>Koptelefoon</item>
+    </array>
 </resources>

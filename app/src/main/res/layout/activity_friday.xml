@@ -58,52 +58,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"/>
+            android:orientation="horizontal">
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
+            <ListView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:id="@+id/textView"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginStart="30dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginTop="28dp"
-                        android:text="New Text"
-                        android:textColor="@color/textColor"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <CheckBox
-                        android:id="@+id/checkBox"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignBottom="@+id/textView"
-                        android:layout_alignParentEnd="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="20dp"
-                        android:layout_marginBottom="-5dp"
-                        android:focusable="false"
-                        android:text=""
-                        android:textColor="@color/textColor" />
-
-                </RelativeLayout>
-            </LinearLayout>
-        </ScrollView>
+                android:layout_height="match_parent"
+                android:entries="@array/friday_items"/>
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
