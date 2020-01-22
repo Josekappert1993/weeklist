@@ -16,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#8C264D"
+            android:background="@color/tuesdayColor"
             android:orientation="horizontal"
             android:padding="8dp"
             android:paddingLeft="8dp"
@@ -43,7 +43,7 @@
                 android:text="@string/tuesday_btn"
                 android:textColor="@color/textColor" />
 
-            <Button
+<!--            <Button-->
                 android:id="@+id/tuesday_add_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -58,7 +58,8 @@
             android:id="@+id/tuesday_listview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/tuesday_items"/>
+            android:entries="@array/tuesday_items"
+            android:background="@color/tuesdayColor"/>
 
     </LinearLayout>
 

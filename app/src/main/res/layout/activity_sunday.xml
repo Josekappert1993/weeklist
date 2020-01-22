@@ -16,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFD600"
+            android:background="@color/sundayColor"
             android:orientation="horizontal"
             android:padding="8dp"
             android:paddingLeft="8dp"
@@ -43,7 +43,7 @@
                 android:text="@string/sunday_btn"
                 android:textColor="@color/textColor" />
 
-            <Button
+<!--            <Button-->
                 android:id="@+id/sunday_add_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -57,7 +57,8 @@
             android:id="@+id/sunday_listview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:entries="@array/sunday_items"/>
+            android:entries="@array/sunday_items"
+            android:background="@color/sundayColor"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

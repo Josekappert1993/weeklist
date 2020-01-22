@@ -17,7 +17,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#660066"
+            android:background="@color/mondayColor"
             android:orientation="horizontal"
             android:padding="8dp"
             android:paddingLeft="8dp"
@@ -47,7 +47,7 @@
                 android:textSize="18sp"
                 app:fontFamily="monospace" />
 
-            <Button
+<!--            <Button-->
                 android:id="@+id/monday_add_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -58,46 +58,11 @@
 
         </LinearLayout>
         <ListView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/mondayColor"
             android:entries="@array/monday_items"></ListView>
 
-        <!--        <com.google.android.material.textfield.TextInputLayout-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:layout_weight="2" />-->
-
-        <!--        <RelativeLayout-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="match_parent">-->
-
-        <!--            <TextView-->
-        <!--                android:id="@+id/textView"-->
-        <!--                android:layout_width="wrap_content"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:layout_alignParentStart="true"-->
-        <!--                android:layout_alignParentLeft="true"-->
-        <!--                android:layout_alignParentTop="true"-->
-        <!--                android:layout_marginStart="30dp"-->
-        <!--                android:layout_marginLeft="30dp"-->
-        <!--                android:layout_marginTop="28dp"-->
-        <!--                android:text="New Text"-->
-        <!--                android:textColor="@color/textColor"-->
-        <!--                android:textSize="20sp"-->
-        <!--                android:textStyle="bold" />-->
-
-        <!--            <CheckBox-->
-        <!--                android:layout_width="wrap_content"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:text=""-->
-        <!--                android:focusable="false"-->
-        <!--                android:id="@+id/checkBox"-->
-        <!--                android:layout_marginRight="20dp"-->
-        <!--                android:layout_marginBottom="-5dp"-->
-        <!--                android:layout_alignBottom="@+id/textView"-->
-        <!--                android:layout_alignParentRight="true"-->
-        <!--                android:layout_alignParentEnd="true" />-->
-
-        <!--        </RelativeLayout>-->
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

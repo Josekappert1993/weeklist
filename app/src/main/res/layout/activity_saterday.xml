@@ -16,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFB800"
+            android:background="@color/saterdayColor"
             android:orientation="horizontal"
             android:padding="8dp"
             android:paddingLeft="8dp"
@@ -44,7 +44,7 @@
                 android:text="@string/saturday_btn"
                 android:textColor="@color/textColor" />
 
-            <Button
+<!--            <Button-->
                 android:id="@+id/saturday_add_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -58,6 +58,7 @@
             android:id="@+id/saterday_listview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/saterdayColor"
             android:entries="@array/saturday_items"/>
 
     </LinearLayout>

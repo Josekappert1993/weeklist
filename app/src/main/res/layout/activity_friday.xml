@@ -16,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FE9900"
+            android:background="@color/fridayColor"
             android:orientation="horizontal"
             android:padding="8dp"
             android:paddingLeft="8dp"
@@ -44,7 +44,7 @@
                 android:text="@string/friday_btn"
                 android:textColor="@color/textColor" />
 
-            <Button
+<!--            <Button-->
                 android:id="@+id/friday_add_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -63,6 +63,7 @@
             <ListView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/fridayColor"
                 android:entries="@array/friday_items"/>
         </LinearLayout>
 

@@ -4,4 +4,11 @@
     <color name="colorPrimaryDark">#373737</color>
     <color name="colorAccent">#9C27B0</color>
     <color name="textColor">#FFFFFF</color>
+    <color name="mondayColor">#660066</color>
+    <color name="tuesdayColor">#8C264D</color>
+    <color name="wednesdayColor">#B34D34</color>
+    <color name="thursdayColor">#D87319</color>
+    <color name="fridayColor">#FE9900</color>
+    <color name="saterdayColor">#FFB800</color>
+    <color name="sundayColor">#FFD600</color>
 </resources>
