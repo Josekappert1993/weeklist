@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Friday extends AppCompatActivity {
 
-    String[] friday_checklist = {"Laptop", "Thee", "Telefoon", "Koptelefoon", "Muis"};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,5 +26,9 @@ public class Friday extends AppCompatActivity {
                 finish();
             }
         });
+    }
+
+    public void colorChange(View view) {
+
     }
 }

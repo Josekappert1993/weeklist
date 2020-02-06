@@ -44,7 +44,7 @@
                 android:text="@string/friday_btn"
                 android:textColor="@color/textColor" />
 
-<!--            <Button-->
+            <!--            <Button-->
                 android:id="@+id/friday_add_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -55,17 +55,32 @@
 
         </LinearLayout>
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
-            <ListView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/fridayColor"
-                android:entries="@array/friday_items"/>
-        </LinearLayout>
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            -->
+
+<!--            <ListView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/fridayColor"-->
+<!--                android:entries="@array/friday_items"-->
+<!--                android:onClick="colorChange"-->
+<!--                />-->
+<!--        </LinearLayout>-->
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
